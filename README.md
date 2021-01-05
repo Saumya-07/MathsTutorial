@@ -1,2 +1,2 @@
 # MathsTutorial
-An HTMl CSS website
+An HTML CSS website
