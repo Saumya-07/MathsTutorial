@@ -1,0 +1,159 @@
+body{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color: rgb(5, 52, 83);
+   background-image: url(../images/maths4.jpg) ;
+   padding: 0;
+   margin: 0;
+}
+.container{
+    width: 85%; 
+    margin: 0 auto;
+    padding: 10px 30px 10px 30px;
+    box-shadow: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.26);
+}
+header{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+h1 a{
+    color: #4a285c;
+    font-size: 55px;
+    text-decoration: none;
+    
+}
+#searchbox{
+    border: 1px solid transparent;
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 25px 20px 0px 20px ;
+    height: 50px;
+    background-color: thistle;
+}
+.text{
+    
+    padding: 5px;
+    color: #ea7f0c;
+    border: #ea7f0c;
+    width: 200px;
+}
+.submit{
+    background-color: #a751d6;
+    color: #ffffff;
+    padding: 3px;
+    margin-left: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px;
+    background:linear-gradient(#f6f38d,#e3e259);
+   
+}
+nav ul li{
+   list-style: none;
+   margin: 10px 15px 10px 20px;
+   padding-right: 30px;
+   border-right:1px solid #a751d6;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #a751d6;
+    font-size: 20px;
+    
+}
+nav ul li:last-child{
+    border-right: none;
+}
+nav ul li a:hover,.active{
+    font-weight: 800;
+    color: #861bbf;
+}
+.main{
+    background: linear-gradient(#d6f19f,#acdb4d);
+    padding: 30px 20px;
+    
+}
+.main h2{
+    color: #3e740d;
+    font-size: 45px;
+}
+.main p{
+    color: #637a0f;
+    font-size: 26px;
+}
+.content{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar{
+    box-sizing: border-box;
+    list-style: none;
+    margin-top: 20px;
+    border: 1.5px solid #1a69c4;
+    border-radius: 25px;
+    padding: 20px;
+    backdrop-filter : blur(10px);
+   
+}
+.sidebar h3{
+    color: #0a1531;
+    font-size: 40px;
+}
+.sidebar ul{
+    display: block;
+}
+.sidebar ul li{
+    
+    list-style: none;
+    padding: 10px;
+}
+.sidebar ul li a{
+    font-weight: bold;
+    align-items: center;
+    display: flex;      
+    text-decoration: none;
+    color: #322b41;
+    font-size: 17px;
+    transition: all .2s;
+}
+.sidebar ul li a:before{
+    content: " ";
+    height: 1px;
+    width: 0;
+    background-color: #322b41;
+    margin-right: 5px;
+    margin-left: 5px;
+    transition:  0.3s;
+}
+.sidebar ul li a:hover{
+    font-size: 19px;
+    font-weight: 800;
+    color: #1b0f22;
+
+}
+
+.sidebar ul li a:hover::before{
+    width: 15px;
+}
+#left{
+    width: 35%;
+}
+#right{
+    width: 62%;
+}
+#right ul li a{
+   padding: 10px;
+   margin-bottom: 10px;
+}
+footer{
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 5px 20px;
+    box-shadow:0px 4px  #322b41;
+    background:linear-gradient(#64b6da,#0e739e);  
+}
