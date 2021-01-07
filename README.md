@@ -1,2 +1,2 @@
 # MathsTutorial
-An HTML CSS website
+An HTML CSS landing page
